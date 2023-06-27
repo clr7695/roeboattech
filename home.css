@@ -36,11 +36,7 @@ header li a:hover {
 body {
     background-color: #fef1f3;
 }
-main a {
-    color: #e6a3af;
-    font-family: 'Heebo', sans-serif;
-}
-.oneproject a {
+a {
     color: #6f1f42;
     font-family: 'Heebo', sans-serif;
 }
@@ -66,6 +62,10 @@ footer {
 }
 footer p {
     text-align: center;
+}
+footer a {
+    color: #e6a3af;
+    font-family: 'Heebo', sans-serif;
 }
 .oneproject {
     background-color: #e6a3af;
@@ -95,6 +95,23 @@ h1 {
     font-family: 'Heebo', sans-serif;
     padding: 15px;
     margin: 20px;
-    width: 90%;
-    box-shadow: 5px 5px gray
+    width: 400px;
+    box-shadow: 5px 5px gray;
+}
+.intropic {
+    background-color: #e6a3af;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: fit-content;
+    font-family: 'Heebo', sans-serif;
+    padding: 15px;
+    margin: 20px;
+    width: 250px;
+    box-shadow: 5px 5px gray;
+    justify-content: center;
+}
+img {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
 }
